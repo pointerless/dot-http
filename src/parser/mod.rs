@@ -6,10 +6,10 @@ use pest::error::LineColLocation;
 use pest::iterators::Pair;
 use pest::Parser;
 use pest::Span;
-use serde::export::Formatter;
 use std::error;
 use std::fmt;
 use std::fmt::Display;
+use std::fmt::Formatter;
 use std::path::PathBuf;
 
 #[derive(Parser)]
